@@ -1,6 +1,83 @@
+.title {
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+.subtitle {
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.15em; 
+}
+
+.blockquote {
+  font-style: italic;
+}
+.link {
+  text-align: right;
+}
+.header {
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  font-variant: uppercase;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: black;
+  border-bottom-color: black;
+  border-top-width: 2px;
+  border-bottom-width: 1px;
+}
+
+.subheader {
+  font-style: italic;
+  font-size: 0.7em;
+  letter-spacing: 0em;
+  font-weight: lighter;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+dt {
+  float: left;
+} 
+dd {
+  margin-left: 9em;
+}
+
+.schedule {
+    margin-left:auto; 
+    margin-right:auto;
+}
+table {
+  border-collapse:collapse;
+}
+table, th, td {
+  border: 1px solid #C8C8C8;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+th
+{
+  background-color:black;
+  color:white;
+} 
+
+.week {
+  -webkit-transform: rotate(-90deg);
+}
+
+.odd_week {
+  background-color: #E2E2FF;
+}
+
 body {
   font-family: "Computer Modern Serif";
   font-size: 16pt;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
